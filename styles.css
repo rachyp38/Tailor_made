@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: Pacifico;
+  color: white;
+  font-size: 100px;
+  font-weight: lighter;
+  font-style: italic;
+}
+p {
+  color: turquoise;
+  font-size: 10px;
+  text-decoration: underline;
+  font-weight: 10px;
+  font-family: Rammetto One;
+  font-style: italic;
+}
+#Asos-link {
+  color: red;
+}
