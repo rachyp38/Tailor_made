@@ -29,6 +29,7 @@ ul {
 
 li {
     text-align: center;
+    display: inline;
 }
 
 li a {
