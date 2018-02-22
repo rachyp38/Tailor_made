@@ -8,7 +8,16 @@ h1 {
   font-size: 100px;
   font-weight: lighter;
   font-style: italic;
+  text-align: center;
 }
+h2 {
+  font-family: Pacifico;
+  color: white;
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
+}
+<<<<<<< HEAD
 ul {
   background: rgba(255, 255, 255, 0.5);
   padding: 0;
@@ -19,3 +28,12 @@ li {
   color: rgba(230,250,250,1);
   padding: 0px 20px 0px 20px;
 }
+=======
+p {
+  color: turquoise;
+  font-size: 10px;
+  text-decoration: underline;
+  font-weight: 10px;
+  font-family: Rammetto One;
+  font-style: italic;
+>>>>>>> c0665808ba9bf2c20f0ff1e57b691e378efb2a77
