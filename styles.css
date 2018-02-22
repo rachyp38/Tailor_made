@@ -8,6 +8,14 @@ h1 {
   font-size: 100px;
   font-weight: lighter;
   font-style: italic;
+  text-align: center;
+}
+h2 {
+  font-family: Pacifico;
+  color: white;
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
 }
 p {
   color: turquoise;
@@ -16,7 +24,3 @@ p {
   font-weight: 10px;
   font-family: Rammetto One;
   font-style: italic;
-}
-#Asos-link {
-  color: red;
-}
