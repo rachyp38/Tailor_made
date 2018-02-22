@@ -18,23 +18,6 @@ h2 {
   text-align: center;
 }
 ul {
-  background: rgba(255, 255, 255, 0.5);
-  padding: 0;
-  border: 20px;
-}
-li {
-  display: inline;
-  color: rgba(230,250,250,1);
-  padding: 0px 20px 0px 20px;
-}
-p {
-  color: white;
-  font-size: 10px;
-  text-decoration: underline;
-  font-weight: 10px;
-  font-family: Rammetto One;
-  font-style: italic;}
-  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
