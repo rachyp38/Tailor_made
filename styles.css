@@ -9,6 +9,7 @@ h1 {
   font-weight: lighter;
   font-style: italic;
   text-align: center;
+  margin: 0;
 }
 h2 {
   font-family: Pacifico;
