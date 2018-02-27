@@ -15,9 +15,35 @@
   </ul>
 
 <h1>Contact us</h1>
-<p>If you'd like a more bespoke experience, get in touch!</p>
-<input type="text" value placeholder="Your name">
-<input type="email" value placeholder="Your email">
-<input type="number" value placeholder="Your number">
+<h2 id="contact">If you'd like a more bespoke experience, get in touch!</h2>
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="event">Event type</label>
+      <select id="event" name="event">
+        <option value="birthday">Birthday</option>
+        <option value="hendo">Hen do</option>
+        <option value="stagdo">Stag do</option>
+        <option value="christmas">Christmas</option>
+        <option value="nightout">Night out</option>
+      </select>
+
+      <label for="guests">No. of guests</label>
+      <input type="text" id="guests" name="guests" placeholder="0">
+
+    <label for="subject">Comments</label>
+    <textarea id="subject" name="subject" placeholder="Tell us a bit about what you're after!" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 </body>
 </html>
