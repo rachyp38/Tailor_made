@@ -53,22 +53,22 @@
 
 	  genre = parseInt(document.querySelector('input[name = "genre"]:checked').value);
 
-	   total= age + activity + genre;
+	   average = (age + activity + genre) / 3
 
 
-	   document.getElementById("answer").innerHTML = total;
+	   document.getElementById("answer").innerHTML = average;
 
 
 
-	   if(total < 4) {
+	   if(average >=1 && average <1.5) {
 document.getElementById("answer2").innerHTML = "You got Quiet Company.";
 }
 
-   if(total >=4 && total < 7) {
+   if(average >=1.5 && average <2.5) {
 document.getElementById("answer2").innerHTML = "You got Spoon.";
 }
 
-	if(total >=7) {
+	if(average >=2.5) {
 document.getElementById("answer2").innerHTML = "You got Willie Nelson.";
 }
 
