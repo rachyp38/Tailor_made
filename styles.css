@@ -36,6 +36,15 @@ li {
     display: inline;
 }
 
+#letsgo {
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+    padding: 10px;
+    font: 5px;
+    text-decoration: none;
+}
+
 li a {
     display: inline;
     color: white;
