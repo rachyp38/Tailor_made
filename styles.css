@@ -1,10 +1,15 @@
 body {
-  background-color: black;
+  background-color: white;
 }
 
+.Banner-Image {
+  width: 100%;
+  margin: 0 auto;
+  height: 600px;
+}
 h1 {
   font-family: Pacifico;
-  color: teal;
+  color: rebeccapurple;
   font-size: 100px;
   font-weight: lighter;
   font-style: italic;
@@ -32,7 +37,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: white;
 }
 
 li {
@@ -42,7 +47,7 @@ li {
 
 #letsgo {
     color: white;
-    background-color: teal;
+    background-color: rebeccapurple;
     border-radius: 10px;
     padding: 10px;
     font: 5px;
@@ -61,9 +66,9 @@ p {
 
 li a {
     display: inline;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 30px;
     text-decoration: none;
     font-family: Pacifico;
     font-size: 20px;
@@ -75,7 +80,7 @@ li a:hover:not(.active) {
 
 li a.active {
     color: white;
-    background-color: teal;
+    background-color: rebeccapurple;
 }
 .polaroid-images a
 {
