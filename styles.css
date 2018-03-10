@@ -60,8 +60,10 @@ li {
 }
 
 p {
-  color: white;
+  font-family: Roboto;
+  color: black;
   text-align: center;
+  font-weight: bold;
 }
 
 li a {
