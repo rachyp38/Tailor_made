@@ -17,7 +17,7 @@ h1 {
 }
 h2 {
   font-family: Pacifico;
-  color: white;
+  color: rebeccapurple;
   font-size: 40px;
   font-weight: lighter;
   text-align: center;
@@ -57,6 +57,12 @@ li {
 #input {
   display: block;
   vertical-align: text-top;
+}
+
+.navbar-text {
+  font-family: Roboto;
+  color: black;
+  font-weight: bold;
 }
 
 p {
