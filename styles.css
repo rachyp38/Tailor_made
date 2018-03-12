@@ -52,7 +52,7 @@ li {
     background-color: rebeccapurple;
     border-radius: 10px;
     padding: 10px;
-    font: 5px;
+    font-size: 40px;
     text-decoration: none;
 }
 #submit {
@@ -60,8 +60,9 @@ li {
   background-color: rebeccapurple;
   border-radius: 10px;
   padding: 10px;
-  font: 5px;
+  font-size: 20px;
   text-decoration: none;
+  margin: 20px;
 }
 #input {
   display: block;
