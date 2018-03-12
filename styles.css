@@ -64,6 +64,9 @@ li {
   text-decoration: none;
   margin: 20px;
 }
+#submit:hover {
+      background-color: grey;
+}
 #input {
   display: block;
   vertical-align: text-top;
@@ -202,7 +205,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: rebeccapurple;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -210,9 +213,9 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a grey color */
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: grey;
 }
 
 /* Add a background color and some padding around the form */
