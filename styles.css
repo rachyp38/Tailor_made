@@ -55,6 +55,9 @@ li {
     font-size: 40px;
     text-decoration: none;
 }
+#letsgo:hover {
+  background-color: grey;
+}
 #submit {
   color: white;
   background-color: rebeccapurple;
