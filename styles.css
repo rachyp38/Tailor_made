@@ -36,6 +36,10 @@ sub h2 {
   text-align: center;
   margin: 50px;
 }
+
+.googlemap {
+  text-align: center;
+}
 #five-stars {
   text-align: center;
   display: block;
