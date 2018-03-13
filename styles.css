@@ -39,7 +39,7 @@ sub h2 {
 #five-stars {
   text-align: center;
   display: block;
-  margin: 200px;
+  margin: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -330,19 +330,19 @@ div {
   margin: 50px 0px 0px 0px;
 }
 section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .quote {
     color: rgba(0,0,0,.1);
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 /* carousel */
 #quote-carousel {
   padding: 0 10px 30px 10px;
-  margin-top: 30px;
+  margin-top: 0px;
   text-align:center;
 }
 /* indicator position */
