@@ -178,7 +178,10 @@ li a.active {
 .craft-section {
   float: right;
 }
-
+#craft-section {
+  width: 80%;
+  margin: auto;
+}
 #Craft {
 font-family: Pacifico;
 color: rebeccapurple;
