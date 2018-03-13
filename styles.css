@@ -5,7 +5,7 @@ body {
 .Banner-Image {
   width: 100%;
   margin: 0 auto;
-  height: 500px;
+  height: 575px;
 }
 h1 {
   font-family: Pacifico;
@@ -22,10 +22,24 @@ h2 {
   font-size: 40px;
   font-weight: lighter;
   text-align: center;
-  margin-top: 0px;
+  margin: 50px 0px 0px 0px;
+}
+sub h2 {
+  font-family: Pacifico;
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0px;
+}
+.knitting-icon {
+  text-align: center;
+  margin: 50px;
 }
 #contact {
   font-size: 30px;
+  margin: 0px;
+  color: black;
 }
 
 h3 {
@@ -55,6 +69,9 @@ li {
     font-size: 40px;
     text-decoration: none;
 }
+#letsgo:hover {
+  background-color: grey;
+}
 #submit {
   color: white;
   background-color: rebeccapurple;
@@ -63,6 +80,9 @@ li {
   font-size: 20px;
   text-decoration: none;
   margin: 20px;
+}
+#submit:hover {
+      background-color: grey;
 }
 #input {
   display: block;
@@ -80,6 +100,7 @@ p {
   color: black;
   text-align: center;
   font-weight: bold;
+  margin: 20px 0px;
 }
 
 li a {
@@ -135,6 +156,7 @@ li a.active {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+<<<<<<< HEAD
 
 #Craft {
 font-family: Pacifico;
@@ -155,10 +177,13 @@ font-weight: lighter;
 
 .polaroid-images a
 {
+=======
+  .polaroid-images a {
+>>>>>>> 2785fa309e7c24f53ff78a0d3c0504c3f39d6838
 	background: white;
 	display: inline;
 	float: left;
-	margin: 0 15px 30px;
+	margin: 30px 15px 30px;
 	padding: 10px 10px 25px;
 	text-align: center;
 	text-decoration: none;
@@ -220,7 +245,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: rebeccapurple;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -228,17 +253,22 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a grey color */
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: grey;
 }
 
 /* Add a background color and some padding around the form */
 .container {
-    border-radius: 30px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin: 0px 200px;
+    width: 100%
+}
+.container-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
 }
 
 #main {
