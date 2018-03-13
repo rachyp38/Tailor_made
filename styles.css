@@ -36,6 +36,15 @@ sub h2 {
   text-align: center;
   margin: 50px;
 }
+#five-stars {
+  text-align: center;
+  display: block;
+  margin: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100px;
+}
 #contact {
   font-size: 30px;
   margin: 0px;
