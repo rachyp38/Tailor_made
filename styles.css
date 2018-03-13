@@ -36,6 +36,15 @@ sub h2 {
   text-align: center;
   margin: 50px;
 }
+#five-stars {
+  text-align: center;
+  display: block;
+  margin: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100px;
+}
 #contact {
   font-size: 30px;
   margin: 0px;
@@ -55,6 +64,7 @@ ul {
     overflow: hidden;
     background-color: white;
 }
+
 
 li {
     text-align: center;
@@ -328,4 +338,45 @@ section {
     color: rgba(0,0,0,.1);
     text-align: center;
     margin-bottom: 30px;
+}
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align:center;
+}
+/* indicator position */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+/* indicator color */
+#quote-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+/* active indicator */
+#quote-carousel .carousel-indicators .active {
+  background: #333333;
+  height:10px;
+  width:10px;
+  margin-bottom:1px;
+}
+/* typography */
+h1 {
+  text-align:center;
+  margin-bottom:-20px !important;
+}
+p {
+  font-style:italic;
+}
+
+#what-people-say {
+  font-family: Pacifico;
+  color: rebeccapurple;
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 50px 0px 0px 0px;
 }
