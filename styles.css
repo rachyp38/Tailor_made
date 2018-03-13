@@ -157,12 +157,24 @@ li a.active {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.craft-section {
+  float: right;
+}
+
 #Craft {
 font-family: Pacifico;
 color: rebeccapurple;
-text-align: right;
+text-align: left;
 font-size: 40px;
 font-weight: lighter;
+}
+
+#Craft-para {
+font-family: Roboto;
+color: black;
+text-align: left;
+font-size: 12px;
+font-weight: bold;
 }
 
 #Tailors {
