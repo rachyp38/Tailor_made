@@ -361,3 +361,21 @@ h1 {
 p {
   font-style:italic;
 }
+
+#nav-bar-carousel {
+  font-family: Pacifico;
+  color: rebeccapurple;
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+}
+
+#what-people-say {
+  font-family: Pacifico;
+  color: rebeccapurple;
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+}
