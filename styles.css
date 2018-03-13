@@ -5,7 +5,7 @@ body {
 .Banner-Image {
   width: 100%;
   margin: 0 auto;
-  height: 500px;
+  height: 575px;
 }
 h1 {
   font-family: Pacifico;
@@ -22,10 +22,24 @@ h2 {
   font-size: 40px;
   font-weight: lighter;
   text-align: center;
-  margin-top: 0px;
+  margin: 50px 0px 0px 0px;
+}
+sub h2 {
+  font-family: Pacifico;
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0px;
+}
+.knitting-icon {
+  text-align: center;
+  margin: 50px;
 }
 #contact {
   font-size: 30px;
+  margin: 0px;
+  color: black;
 }
 
 h3 {
@@ -86,6 +100,7 @@ p {
   color: black;
   text-align: center;
   font-weight: bold;
+  margin: 20px 0px;
 }
 
 li a {
@@ -141,12 +156,11 @@ li a.active {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.polaroid-images a
-{
+  .polaroid-images a {
 	background: white;
 	display: inline;
 	float: left;
-	margin: 0 15px 30px;
+	margin: 30px 15px 30px;
 	padding: 10px 10px 25px;
 	text-align: center;
 	text-decoration: none;
@@ -223,10 +237,15 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .container {
-    border-radius: 30px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin: 0px 200px;
+    width: 100%
+}
+.container-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
 }
 
 #main {
