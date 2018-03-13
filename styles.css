@@ -54,7 +54,9 @@ sub h2 {
   margin: 0px;
   color: black;
 }
-
+#newsletter {
+  font-size: 12px;
+}
 h3 {
   text-align: center;
   color: white;
@@ -129,11 +131,13 @@ li a {
 
 li a:hover:not(.active) {
     background-color: #ddd;
+    text-decoration: none;
 }
 
 li a.active {
     color: white;
     background-color: rebeccapurple;
+    text-decoration: none;
   }
 
 .social-media {
