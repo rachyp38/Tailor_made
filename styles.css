@@ -199,7 +199,9 @@ font-size: 40px;
 font-weight: lighter;
 }
 
-
+.polaroid-images {
+  margin: 0px 260px 0px 260px;
+}
 .polaroid-images a {
 
 	background: white;
