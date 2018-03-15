@@ -80,6 +80,15 @@ ul {
     background-color: white;
 }
 
+#navbar-carousel {
+  text-align: center;
+  list-style-type: none;
+  margin: 10px!important;
+  padding: 3px!important;
+  overflow: hidden;
+  background-color: white;
+}
+
 li {
     text-align: center;
     display: inline;
