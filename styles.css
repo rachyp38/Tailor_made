@@ -153,6 +153,7 @@ li a {
 li a:hover:not(.active) {
     background-color: #ddd;
     text-decoration: none;
+    color: black;
 }
 
 li a.active {
